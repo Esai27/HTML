@@ -14,18 +14,39 @@
     </p>
     <!-- Adding the Image -->
     <!-- title act as tooltip -->
+    <!-- svg images not broken while zoom in - recommended one -->
+    <svg>
     <img src="/Images/lotus.jpg" alt="Lotus Image" title="National Flower"width="100px" height="100px">
+     </svg>
     <figure>
         <img src="/Images/rose.jpg" alt="Rose" title="Rose Flower" width="20%" height="20%"> 
         <figcaption>Rose is a beautiful flower</figcaption>
     </figure>
-    <!-- Adding Videos -->
+    <!-- Adding Videos poster attribute used for adding thumbnail-->
     <video controls src="/Videos/Nature Video.mp4" type="mp4" 
      width="300px" height="300px"
+     poster="/Images/lotus.jpg"
     autoplay loop muted preload="auto"
     > </video>
     <!-- Adding Audio -->
     <br>
     <audio controls src="/Audio/Birds Sound.mp3"></audio>
+
+    <!-- adding another website content into our website -->
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_22AzA4zqpQ" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowfullscreen></iframe>
+     <!-- adding google map -->
+     <br>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15552.649179714963!2d77.71085735!3d12.961464699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1213f023bc03%3A0x20708ffd9db8a238!2sD%20Mart!5e0!3m2!1sen!2sin!4v1692515324443!5m2!1sen!2sin" 
+     width="600" height="450" style="border: 10px solid grey;" allowfullscreen="" loading="lazy" 
+     referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     <!-- sandbox is computer security for separating running programs to mitigate 
+     system failures and software vulnarabilities.  -->
+
+     <!-- https://letsencrypt.org/ is used for encrypting our site -->
 </body>
 </html>
