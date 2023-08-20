@@ -1,0 +1,22 @@
+p{
+    color:brown;
+    font-size: 20px;
+    width: 500px;
+    border: 5px solid palevioletred;
+    padding: 1em;
+    margin-left: 20px;
+    text-align:center;
+}
+#all{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch:semi-expanded;
+    color: chocolate;
+    margin: auto;
+    border: 1rem solid greenyellow;
+    width:25vw;
+}
+
+.star{
+    font-size: 2rem;
+    padding: 1rem;
+}

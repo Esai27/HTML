@@ -1,0 +1,96 @@
+CSS - Cascading Style Sheet
+
+To add styles to HTML.
+Styling ---> Adding colors, Fonts, Size, Borders, etc.
+
+CSS is not a programming Language. It's not a markup language either.
+
+CSS is a Style Sheet Language. CSS is a rule-based language.
+
+How to define Style for HTML Elements:
+1.In line
+<h1 style = "color:red"> Haiii </h1>
+
+2.By using Style Tag:
+<html>
+<head>
+<style type="text/css">
+h1{
+ color:blue;
+  }
+</style>
+</head>
+  
+not recommended Because this needs to be repeated for every HTML file
+
+Separate CSS File:
+
+style.css
+==========
+h1{color:red}
+
+index.html:
+===========
+<html>
+<head>
+<link rel="stylesheet" href="styles/style1.css">
+</head>
+
+<h1>Welcome to our CSS class </h1>
+ 
+
+Basic Structure of CSS file:
+=============================
+tagname{
+      property:value;
+       }
+eg:
+h1{
+  color:red;
+  }
+
+Selector:
+#p ---> selecting id,==ID Selector
+.p ---> selecting class == Class Selector
+h1,h2 ---> Headings == Attribute Selector
+*     ----> Apply to all == Universal Selector
+
+
+More than one class
+attributename.classname{color:blue;}
+eg: p.class{color:blue}
+
+we mentioned link in html including target attribute, here we add
+some styles, How we select the target attribute?
+
+a[target] --> we mentioned square bracket[] here.
+[title~=linux]==> In this command tells wherever we have 
+title having linux word that element applied the styles
+
+[class|=top]--> it defines the class name as exact top or else
+top word in separate
+Eg:
+top, top - field, top - letter ----> Applicable
+topstory, topcirclr ----> not applicable
+
+[class^="abc"]==> which class starts with "abc" the style 
+applicable for those classes
+it checks the starting attr in regex
+
+
+[class$="xyz"] which are the classes ending with "xyz" the style 
+applicable for all those classes
+it checks the ending of the class name
+
+[class*="xy"] which of the class name have the "xy", style 
+applicable for all those classes
+it checks if the class having the specified letters
+
+div p{
+  color:green;
+   } ====> It applies for the P tag inside the division element
+
+div > p{} ==> It applies which p tag follows the immediate
+children of div
+
+ 
