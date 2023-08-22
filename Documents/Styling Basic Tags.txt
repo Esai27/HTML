@@ -1,0 +1,34 @@
+Text:
+color ----> "#ff0000" , "rgb(0,255,0)", "red"
+text-align ---> Left, right, center , justify --> It looks left and right in that it fix that center
+text-decoration ---> underline the text, overline the text
+text-transform ---> uppercase lowercase Capitalized--> first letter capital in each word
+text-indent ---> give the space 
+
+Font:
+Font-size ---> size of the font
+Font-Family ---> Times new Roman
+font-style----> bold
+
+
+Link:
+<a href="">
+a:hover{}----> when you hovering the mouse
+a:visited{} ----> once visited the link
+a:active{}---> when touch the link frac of sec
+a link{}--> we remove the line of the link using decoration
+
+
+List:
+list-style-type: circle
+display:inline ---> display in same line
+
+Positioning:
+Static
+Fixed
+Absolute
+Sticky
+
+z index ---> -1
+The content positioned above the another content. 
+overlapping the position

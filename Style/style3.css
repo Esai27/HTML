@@ -1,0 +1,58 @@
+#btn1{
+    border: none;
+    border-radius: 15%;
+    padding: 1em;
+    background-color: aqua;
+    font-size: medium;
+    margin: 20px;
+    color: rgb(141, 116, 116);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    cursor: pointer;
+}
+.btn2{
+    border: 2px double goldenrod;
+    border-radius:50%;
+    padding: 1em;
+    background-color:cadetblue;
+    font-size: medium;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    cursor: pointer;
+}
+ a{
+    text-decoration: none;
+    border: 2px double goldenrod;
+    border-radius: 50px;
+    padding: 1em;
+    background-color:cadetblue;
+    font-size: medium;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline-block;
+    cursor: pointer;
+}
+
+#btn1:hover{
+    background-color: brown;
+    color: white;
+
+}
+.btn2:hover{
+    background-color: brown;
+    color: white;
+    border: none;
+
+}
+a:hover{
+    background-color: brown;
+    color: white;
+    border: none;
+
+}

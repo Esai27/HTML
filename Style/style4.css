@@ -1,0 +1,18 @@
+.paper{
+   column-count: 3;
+   column-width: 150px;
+   column-gap: 50px;
+}
+.para{
+    background-color:beige;
+    border: 5px solid gray;
+    padding: 1rem;
+    margin:1em;
+}
+#head{
+    column-span: all;
+}
+#after > p::after{
+    content: url("https://images.freeimages.com/images/large-previews/e81/barberton-daisy-1397265.jpg");
+    /* content: "  Tell ur suggestions"; */
+}
